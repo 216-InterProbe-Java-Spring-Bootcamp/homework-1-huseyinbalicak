@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+
+    <changeSet id="table-product-review-data-changelog-v1.0.xml" author="huseyin-balicak" context="test">
+
+        <insert tableName="product_review">
+            <column name="comment" value="ürün1 için 1.yorum"/>
+            <column name="comment_date" value="2021-1-1"/>
+            <column name="product_id" value="1"/>
+            <column name="user_id" value="1"/>
+
+
+        </insert>
+
+        <insert tableName="product_review">
+            <column name="comment" value="ürün1 için 2.yorum"/>
+            <column name="comment_date" value="2021-2-2"/>
+            <column name="product_id" value="1"/>
+            <column name="user_id" value="1"/>
+
+
+        </insert>
+
+
+        <insert tableName="product_review">
+            <column name="comment" value="ürün1 için 3.yorum"/>
+            <column name="comment_date" value="2021-3-3"/>
+            <column name="product_id" value="1"/>
+            <column name="user_id" value="1"/>
+
+
+        </insert>
+
+        <insert tableName="product_review">
+            <column name="comment" value="ürün1 için 4.yorum "/>
+            <column name="comment_date" value="2021-4-4"/>
+            <column name="product_id" value="1"/>
+            <column name="user_id" value="2"/>
+
+
+        </insert>
+
+        <insert tableName="product_review">
+            <column name="comment" value="ürün2 için 1.yorum "/>
+            <column name="comment_date" value="2021-5-5"/>
+            <column name="product_id" value="2"/>
+            <column name="user_id" value="2"/>
+
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>
